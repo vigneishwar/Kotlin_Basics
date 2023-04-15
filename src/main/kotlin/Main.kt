@@ -24,9 +24,40 @@
 //}
 
 
+//fun main() {
+//    val baseSalary = 5000
+//    val bonusAmount = 1000
+//    val totalSalary = "$baseSalary + $bonusAmount"
+//    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+//}
+//
+//fun main() {
+//    val firstNumber = 10
+//    val secondNumber = 5
+//    val result = firstNumber + secondNumber
+//
+//    println("$firstNumber + $secondNumber = $result")
+//}
+
+
 fun main() {
-    val baseSalary = 5000
-    val bonusAmount = 1000
-    val totalSalary = "$baseSalary + $bonusAmount"
-    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+
+    val result = subtract(firstNumber, secondNumber)
+    val anotherResult = subtract(firstNumber, thirdNumber)
+
+    println("$firstNumber - $secondNumber = $result")
+    println("$firstNumber - $thirdNumber = $anotherResult")
+}
+
+// Define add() function below this line
+//
+//fun add(firstNumber: Int, secondNumber: Int): Int {
+//    return firstNumber + secondNumber
+//}
+
+fun subtract(firstNumber: Int, secondNumber: Int): Int {
+    return firstNumber - secondNumber
 }
